@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="banner-section">
+        <div class="padding-format">
+            <!-- <header class="header"> -->
+            <nav class="navbar">
+                <div class="top_navbar">
+                    <div class="left-item">
+                        <div class="logo"><img src="assists/logo.svg" alt="top_logo"></div>
+                        <div class="search_field">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input class="search_box" type="search" placeholder="Search For">
+                        </div>
+                    </div>
+
+                    <div class="right-item">
+                        <div class="account-sec">
+                            <div class="user-icons"><i class="fa-solid fa-user"></i></div>
+                            <div class="account">My Account</div>
+                        </div>
+
+                        <div class="card-sec">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="doller">$0.00</span>
+                            </div>
+                            <div class="card-value">0</div>
+                        </div>
+
+                        <div class="country">
+                            <div class="country-img">
+                                <img src="assists/us.png" alt="">
+                            </div>
+                            <select>
+                                <option value="USA">USA</option>
+                                <option value="IN">IN</option>
+                                <option value="UK">UK</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- 2nd  Navbar -->
+
+        <section class="sticky">
+            <div class="nav-second-container">
+                <div class="nav-second padding-format">
+                    <div class="nav-second-left">
+                        <ul class="nav-left-list">
+                            <li>
+                                <a href="#">Home <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="hide-li1">
+                                    <li>Home One</li>
+                                    <li>Home One Light</li>
+                                    <li>Home Two</li>
+                                    <li>Home Two Light</li>
+                                </ul>
+                            </li>
+                            <li><a href="#">About US</a></li>
+                            <li>
+                                <a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="hide-li2">
+                                    <li>Shop Left Bar</li>
+                                    <li>Shop Right Bar</li>
+                                    <li>Shop Single</li>
+                                    <li>Cart Page</li>
+                                    <li>Check Out Page</li>
+                                    <li>Register</li>
+                                    <li>Login</li>
+                                    <li>404 Error</li>
+                                </ul>
+                            </li>
+                            <li onmouseover=show() onmouseout=hide()>
+                                <a href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="hide-li3">
+                                    <li>Blog Stander</li>
+                                    <li>Blog Grid</li>
+                                    <li>Blog List</li>
+                                    <li>Blog Single</li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Contact US</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-second-right">
+                        <div class="picking">
+                            <div class="picking-img"><img src="assists/picking.png" alt="picking pic"></div>
+                            <div class="picking-text">
+                                <p class="para">Picking Up ?</p>
+                                <span class="span-list">
+                                    <ul>
+                                        <li>Select Store <i class="fa-solid fa-angle-down"></i></li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="shiping">
+                            <div class="shiping-img"><img src="assists/shipping.png" alt="shiping pic"></div>
+                            <div class="shiping-text">
+                                <p class="para1">Free Shiping</p>
+                                <p class="para2">On Order <span class="order-value">Over $100</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Banner Content -->
+
+        <div class="banner-content padding-format">
+            <div class="less">
+                <span class="span-img"><img src="assists/off-pic.svg" alt="off pic"></span>
+                <span>
+                    <p>GET <span class="span-of">25% OFF</span> NOW</p>
+                </span>
+            </div>
+            <div class="ban-heading">
+                <h1>Find Everyingthing For <span class="span-of">Vaping</span></h1>
+            </div>
+            <p class="p-info">Sell Globally In Minutes With Localized Currencies Languges, And<br>
+                Experie In Every Market. Only A Variety Of Vaping Products.
+            </p>
+            <div class="price-info">
+                <p>Starting Price</p>
+                <h3>$99.00</h3>
+            </div>
+            <div class="button-sec">
+                <button class="bt1"><span>Shop Now</span></button>
+                <button class="bt2"><span>View Details</span></button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- on banner img -->
+
+    <div class="banner-left-img">
+        <img src="assists/vape1.png" alt="vipe1">
+    </div>
+    <!-- <div class="banner-right-img">
+        <img src="assists/vape2.png" alt="vipe2">
+    </div> -->
+
+    <!-- categries section -->
+
+    <div class="top-main-container">
+
+        <section class="item-section">
+            <div class="item-container padding-format">
+                <div class="heading-circle">
+                    <span class="circle"></span>
+                    <h3 class="item-heading">Our Top Categories</h3>
+                    <span class="circle"></span>
+                </div>
+                <div class="product-container">
+                    <div class="item-categary">
+                        <div class="item-categary1">
+                            <a href="#">
+                                <div class="product-img">
+                                    <img src="assists/category-icon1.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <a class="product-name" href="#">Best Item</a>
+                    </div>
+                    <div class="item-categary">
+                        <div class="item-categary1">
+                            <a href="#">
+                                <div class="product-img">
+                                    <img src="assists/category-icon2.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <a class="product-name" href="#">Best Item</a>
+                    </div>
+                    <div class="item-categary">
+                        <div class="item-categary1">
+                            <a href="#">
+                                <div class="product-img">
+                                    <img src="assists/category-icon3.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <a class="product-name" href="#">Best Item</a>
+                    </div>
+                    <div class="item-categary">
+                        <div class="item-categary1">
+                            <a href="#">
+                                <div class="product-img">
+                                    <img src="assists/category-icon4.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <a class="product-name" href="#">Best Item</a>
+                    </div>
+                    <div class="item-categary">
+                        <div class="item-categary1">
+                            <a href="#">
+                                <div class="product-img">
+                                    <img src="assists/category-icon5.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <a class="product-name" href="#">Best Item</a>
+                    </div>
+                    <div class="item-categary">
+                        <div class="item-categary1">
+                            <a href="#">
+                                <div class="product-img d">
+                                    <img src="assists/category-icon6.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <a class="product-name" href="#">Best Item</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- product categary -->
+
+        <section class="categary-section">
+            <div class="bg-vipe-pic">
+                <img src="assists/view-bg.jpg" alt="">
+            </div>
+
+            <div class="card-section padding-format">
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-img"><img src="assists/view-image1.jpg" alt=""></div>
+                        <div class="card-text">
+                            <div class="card-text-head">
+                                <h2 class="h2-hover">The Best E-Liqued Bundles</h2>
+                                <p class="card-para">Sell Globally In Minutes With Localized Currencies Language, And
+                                    Experie In Every Market. Only A Variety Of Vaping Products
+                                </p>
+                                <div class="card-btn">
+                                    <a class="card-btn1" href="#">Shop Now</a>
+                                    <a class="card-btn2" href="#">
+                                        <img src="assists/off-pic.svg" alt="">
+                                        GET <span> 25% OFF </span> NOW
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-right">
+                        <div class="card-right1">
+                            <div class="card-text">
+                                <h2 class="h2-hover vape-text">New To Vapeing?</h2>
+                                <p class="card-para">Whereas Recognition Of The Inherent Dignity</p>
+                                <div class="card-btn">
+                                    <a class="card-btn1" href="#">Shop Now</a>
+                                </div>
+                            </div>
+                            <div class="card-img2"><img src="assists/view-image2.jpg" alt=""></div>
+                        </div>
+
+                        <div class="card-right2">
+                            <div class="card-text">
+                                <h2 class="h2-hover vape-text">Vape Mode</h2>
+                                <p class="card-para">Whereas Recognition Of The Inherent Dignity</p>
+                                <div class="card-btn">
+                                    <a class="card-btn1" href="#">Shop Now</a>
+                                </div>
+                            </div>
+                            <div class="card-img2"><img src="assists/view-image3.jpg" alt=""></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- arrival product section -->
+
+        <section>
+            <div class="arrival-main">
+
+                <div class="arrival-container padding-format">
+                    <div class="arrival-heading">
+                        <div class="arrival-headinf-left">
+                            <span class="arrival-span"></span>
+                            <div class="arrival-head">
+                                <h2>Latest arrival Products</h2>
+                            </div>
+                        </div>
+                        <div class="arrival-headinf-right">
+                            <ul>
+                                <span class="arrival-span1"></span>
+                                <li class="right-border"><a href="#">Latest item</a></li>
+                                <li class="right-border last-li"><a href="#">Top Ratting</a></li>
+                                <li class="last-li"><a href="#">Featured Products</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="arrival-product">
+                        <div class="arrival-card">
+                            <div class="arrival-card-img"><img src="assists/product-image1.png" alt=""></div>
+                            <div class="arrival-card-text">
+                                <div class="arrival-p-h">GeekVape Obelis Pod</div>
+                                <div class="kit-price">
+                                    <del>$74.50</del>
+                                    <span class="kit-span">$49.50</span>
+                                </div>
+                                <div class="product-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <i class="fa-solid card-icon1 fa-cart-shopping"></i>
+                                <span>Add To Card</span>
+                            </a>
+                        </div>
+
+                        <div class="arrival-card">
+                            <div class="arrival-card-img"><img src="assists/product-image2.png" alt=""></div>
+                            <div class="arrival-card-text">
+                                <div class="arrival-p-h">Battery And Charge Kit</div>
+                                <div class="kit-price">
+                                    <del>$74.50</del>
+                                    <span class="kit-span">$49.50</span>
+                                </div>
+                                <div class="product-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <i class="fa-solid card-icon1 fa-cart-shopping"></i>
+                                <span>Add To Card</span>
+                            </a>
+                        </div>
+
+                        <div class="arrival-card">
+                            <div class="arrival-card-img"><img src="assists/product-image3.png" alt=""></div>
+                            <div class="arrival-card-text">
+                                <div class="arrival-p-h">POP Extra Strawberry</div>
+                                <div class="kit-price">
+                                    <del>$74.50</del>
+                                    <span class="kit-span">$49.50</span>
+                                </div>
+                                <div class="product-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <i class="fa-solid card-icon1 fa-cart-shopping"></i>
+                                <span>Add To Card</span>
+                            </a>
+                        </div>
+
+                        <div class="arrival-card">
+                            <div class="arrival-card-img"><img src="assists/product-image4.png" alt=""></div>
+                            <div class="arrival-card-text">
+                                <div class="arrival-p-h">Pods Sold Separately</div>
+                                <div class="kit-price">
+                                    <del>$74.50</del>
+                                    <span class="kit-span">$49.50</span>
+                                </div>
+                                <div class="product-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <i class="fa-solid card-icon1 fa-cart-shopping"></i>
+                                <span>Add To Card</span>
+                            </a>
+                        </div>
+
+                        <div class="arrival-card">
+                            <div class="arrival-card-img"><img src="assists/product-image5.png" alt=""></div>
+                            <div class="arrival-card-text">
+                                <div class="arrival-p-h">Disposible Sub-Ohm Tank</div>
+                                <div class="kit-price">
+                                    <del>$74.50</del>
+                                    <span class="kit-span">$49.50</span>
+                                </div>
+                                <div class="product-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <i class="fa-solid card-icon1 fa-cart-shopping"></i>
+                                <span>Add To Card</span>
+                            </a>
+                        </div>
+
+                        <div class="arrival-card">
+                            <div class="arrival-card-img"><img src="assists/product-image6.png" alt=""></div>
+                            <div class="arrival-card-text">
+                                <div class="arrival-p-h">Menthol E-Cigarette Kit</div>
+                                <div class="kit-price">
+                                    <del>$74.50</del>
+                                    <span class="kit-span">$49.50</span>
+                                </div>
+                                <div class="product-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <i class="fa-solid card-icon1 fa-cart-shopping"></i>
+                                <span>Add To Card</span>
+                            </a>
+                        </div>
+
+                        <div class="arrival-card">
+                            <div class="arrival-card-img"><img src="assists/product-image7.png" alt=""></div>
+                            <div class="arrival-card-text">
+                                <div class="arrival-p-h">POP Extra Strawberry</div>
+                                <div class="kit-price">
+                                    <del>$74.50</del>
+                                    <span class="kit-span">$49.50</span>
+                                </div>
+                                <div class="product-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <i class="fa-solid card-icon1 fa-cart-shopping"></i>
+                                <span>Add To Card</span>
+                            </a>
+                        </div>
+
+                        <div class="arrival-card">
+                            <div class="arrival-card-img"><img src="assists/product-image8.png" alt=""></div>
+                            <div class="arrival-card-text">
+                                <div class="arrival-p-h">100ml Nic Salt Juice</div>
+                                <div class="kit-price">
+                                    <del>$74.50</del>
+                                    <span class="kit-span">$49.50</span>
+                                </div>
+                                <div class="product-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <i class="fa-solid card-icon1 fa-cart-shopping"></i>
+                                <span>Add To Card</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fevorite section -->
+
+        <section class="fevorite-section">
+            <div class="fruts-item padding-format">
+                <img src="assists/discount-image2.png" alt="frut-pic">
+
+                <div class="card-fruts">
+                    <div class="card-text fruts-m">
+                        <div class="fcard-text-head">
+                            <h2 class="h2-hover">Find Your Best Favourite</h2>
+                            <p class="card-para">Sell Globally In Minutes With Localized Currencies Language, And
+                                Experie In Every Market. Only A Variety Of Vaping Products
+                            </p>
+                            <div class="fruts-card-btn">
+                                <a class="fruts-card-btn1" href="#">Shop Now</a>
+                                <a class="fruts-card-btn2" href="#">
+                                    <img src="assists/off-pic.svg" alt="">
+                                    GET <span> 25% OFF </span> NOW
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+    
+            </div>
+        </section>
+
+        <!-- new arrival section -->
+
+        <section class="new-arrival-section">
+            <div class="new-arrival-container padding-format">
+                <div class="new-arrival-text">
+                    <h4>
+                        <img src="assists/off-pic.svg" alt="fire-pic"> GET <span>25% OFF</span>NOW
+                    </h4>
+                    <div class="arrival-headinf-left">
+                        <span class="arrival-span"></span>
+                        <div class="arrival-head">
+                            <h2>Latest arrival Products</h2>
+                        </div>
+                    </div>
+                    <div class="kit-price kit-c">
+                        <del>$99.00</del>
+                        <span class="kit-span">$49.00</span>
+                        <p class="arrival-para">There are many variations of passages of Lorem Ipsum available, but <br>
+                            the majority have suffered alteration in some form, by injected humour, or randomised words which
+                        </p>
+                        <ul class="arrival-list">
+                            <li>100 Naturals</li>
+                            <li>Coupon $61.99, Code:W2 </li>
+                            <li>30 Days Refund</li>
+                        </ul>
+                        <div class="offer-end">
+                            <div class="hurry-up">
+                                <h4>HUNGRY UP !</h4>
+                                <span>Offer End In:</span>
+                            </div>
+                            <div class="time-sec">
+                                <h3>-244</h3>
+                                <span>Days</span>
+                            </div>
+                            <div class="time-sec">
+                                <h3>-23</h3>
+                                <span>Hr</span>
+                            </div>
+                            <div class="time-sec">
+                                <h3>-13</h3>
+                                <span>Min</span>
+                            </div>
+                            <div class="time-sec">
+                                <h3>-53</h3>
+                                <span>Sec</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="new-arrival-img1">
+                    <div class="new-arrival-img">
+                        <div class="new-arrival-bg-img">
+                            <div class="bg-up-img"><img src="assists/product-image4.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- marke element -->
+
+        <section>
+            <div class="move-text">
+                <marquee>
+                    <ul>
+                        <li>
+                            E-Cigarette
+                            <img src="assists/cup.svg" alt="cup-img">
+                            <span>Vape Pens</span>
+                            <img src="assists/cup.svg" alt="cup">
+                            Vape Juice
+                            <img src="assists/cup.svg" alt="cup">
+                            <span>E-Cigarette</span>
+                            <img src="assists/cup.svg" alt="cup">
+                            Vape Pens
+                            <img src="assists/cup.svg" alt="cup">
+                            <span>Vape Juice</span>
+                            <img src="assists/cup.svg" alt="cup">
+                            E-Cigarette
+                            <img src="assists/cup.svg" alt="cup">
+                            <span>Vape-Pens</span>
+                            <img src="assists/cup.svg" alt="cup">
+                            Vape Juice
+                            <img src="assists/cup.svg" alt="cup">
+                            <span>E-Cigarette</span>
+                        </li>     
+                    </ul>
+                </marquee>
+            </div>
+        </section>
+
+        <section>
+            <div class="vape-container padding-format">
+                <div class="vape-card">
+                    <div class="vape-of">50% OFF</div>
+                    <div class="vape-of-p">
+                        <a class="best h2-hover" href="#">Best Vape Flowers </a>
+                        <p>Best E Liquieds From Our Huge Collection</p>
+                        <a href="#">
+                            <button class="vape-btn">Shop Now</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="vape-card1">
+                    <div class="vape-of">50% OFF</div>
+                    <div class="vape-of-p">
+                        <a class="best h2-hover" href="#">POPE Extra Strawberry</a>
+                        <p>Best E Liquieds From Our Huge Collection</p>
+                        <a href="#">
+                            <button class="vape-btn">Shop Now</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="vape-card2">
+                    <div class="vape-of">50% OFF</div>
+                    <div class="vape-of-p">
+                        <a class="best h2-hover" href="#">Best Vape Tanks</a>
+                        <p>Best E Liquieds From Our Huge Collection</p>
+                        <a href="#">
+                            <button class="vape-btn">Shop Now</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="vape-card3">
+                    <div class="vape-of">50% OFF</div>
+                    <div class="vape-of-p">
+                        <a class="best h2-hover" href="#">Best E-Liqiued</a>
+                        <p>Best E Liquieds From Our Huge Collection</p>
+                        <a href="#">
+                            <button class="vape-btn">Shop Now</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- brends section -->
+
+        <section class="brend-section">
+            <div class="brend-container padding-format">
+                <div class="arrival-headinf-left text-center">
+                    <span class="arrival-span"></span>
+                    <div class="arrival-head">
+                        <h2>Latest arrival Products</h2>
+                    </div>
+                    <span class="arrival-span brand-span"></span>
+                </div>
+                <div class="brand-iocn">
+                    <div class="brand-card"><img src="assists/brand1.png" alt="bran-img"></div>
+                    <div class="brand-card"><img src="assists/brand2.png" alt="bran-img"></div>
+                    <div class="brand-card"><img src="assists/brand3.png" alt="bran-img"></div>
+                    <div class="brand-card"><img src="assists/brand4.png" alt="bran-img"></div>
+                    <div class="brand-card"><img src="assists/brand5.png" alt="bran-img"></div>
+                    <div class="brand-card"><img src="assists/brand6.png" alt="bran-img"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-container padding-format">
+            <div class="footer-content">
+                <div class="footer-items">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li>Help Portal</li>
+                        <li><a href="#">Contact US</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Click And Collect</a></li>
+                        <li><a href="#">Refund And Returns</a></li>
+                    </ul>
+                </div>
+                <div class="footer-items">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li>About Us</li>
+                        <li><a href="#">News & Blogs</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Invester</a></li>
+                        <li><a href="#">Contact US</a></li>
+                    </ul>
+                </div>
+                <div class="footer-items">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li>E-Cigarette</li>
+                        <li><a href="#">Vade Pens</a></li>
+                        <li><a href="#">Pod Systems</a></li>
+                        <li><a href="#">Disposable Vapes</a></li>
+                        <li><a href="#">Nicotine Salt Divices</a></li>
+                    </ul>
+                </div>
+                <div class="footer-items">
+                    <h4>Customer Service</h4>
+                    <div class="input-sec">
+                        <input class="input-email" type="text" placeholder="Your Email">
+                        <button class="input-btn"><i class="fa-regular fa-paper-plane"></i></button>
+                    </div>
+                    <div class="socil-icon">
+                        <a class="h2-hover" href="https://www.facebook.com/profile.php?id=100018256650822&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="h2-hover" href="https://x.com/surajku44630981?t=GXE3_wU6CuSEF5eBb8Ecpg&s=09"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="h2-hover" href="https://www.linkedin.com/in/suraj-kumar-8b3a79263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a class="h2-hover" href="https://www.instagram.com/p/CsqMXV7SILM/?igsh=NzRjNXNhenV6eWg="><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copy-right">
+                <img src="assists/logo.svg" alt="logo">
+                <p>&copy; Copyright 2024 <a href="#">Odor</a> All Rights Reserved</p>
+               <a href="#"> <img src="assists/payment.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ******  JavaScript -->
+
+    <script>
+        function show() {
+            const hideli1 = document.querySelector('.hide-li3')
+            hideli1.style.display = 'block'
+        }
+        function hide() {
+            const hideli1 = document.querySelector('.hide-li3')
+            hideli1.style.display = 'none'
+        }
+    </script>
+</body>
+
+</html>
