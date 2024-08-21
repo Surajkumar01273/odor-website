@@ -999,7 +999,7 @@ footer{
     font-weight: 300; 
 }
 .input-sec{
-    padding: 0.6rem;
+    /* padding: 0.6rem; */
     background-color: #191919;
     border: 1px solid #727272;
     border-radius: 100px;
@@ -1008,14 +1008,17 @@ footer{
 .input-email{
     padding-right: 2rem;
     background-color: #191919;
+    background: transparent;
     font-size: 14px;
     color: #ffffff;
     outline: none;
     border: none;
+    border-radius: 100px;
+    padding: 1.5rem;
 
 }
 .input-btn{
-    padding-left: 0.4rem;
+    padding: 0.4rem 0.6rem;
     background-color: #191919;
     border-radius: 100%;
     border: none;
